@@ -21,3 +21,7 @@ print(fact)"""
 n = input("enter a string")
 for i in range(len(n)-1 ,-1,-1):
     print(n[i],end="")
+n = int(input("enter a number"))
+total = 0
+for i in range(1,n):
+
