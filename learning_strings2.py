@@ -1,0 +1,12 @@
+str1 = "india won by 8 wickets"
+print(str1)
+print(len(str1))
+print(str1[0:8])
+print(str1[0:8:2])
+print(str1[-6:-1])
+print(str1[::-1])
+print(str1.isalnum())
+print(str1.isalpha())
+print(str1.endswith('wickets'))
+print(str1.count("i"))
+print(str1.replace("won","lost"))
