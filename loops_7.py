@@ -25,7 +25,7 @@ for i in range(len(n)-1 ,-1,-1):
 total = 0
 for i in range(1,n):"""
 
-lst1 = [111, 32, -9, -45, -17, 9, 85, -10]
+"""lst1 = [111, 32, -9, -45, -17, 9, 85, -10]
 lst2 = []
 for i in lst1:
     if i > 0:
@@ -47,9 +47,19 @@ dict={"z1":900, "t1": 1100, "p1": 2300, "r1": 1050, "k1": 3200, "g1": 400}
 lst=[]
 for i in dict:
     if dict[i] > 1000:
-        lst.append(dict[i]-1000)
+        lst.append(dict[i]-1000)"""
 
-print(lst)
+
+"""total =0
+for i in range(1,21):
+    total = total+i
+print(total)
+"""
+total = 0
+n = input("enter a number:")
+for i in range(0,len(n)):
+    total = total + int(n[i])
+print(total)
 
 
 
