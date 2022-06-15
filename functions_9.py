@@ -66,13 +66,9 @@ print(fibonacci_sequence(5))"""
     print(f"your last name is {last_name}")
     print(f"your age is {age}")
 (user_info("adi","srivastva"))"""
-x = 5
 def func():
-    global x
     x = 7
     return x
-print(x)
 print(func())
-print(x)
 
 

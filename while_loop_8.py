@@ -30,14 +30,20 @@ while i<len(n):
     total = total + int(n[i])
     i = i+1
 print(total)"""
-name = input('enter a name:')
+"""name = input('enter a name:')
 temp_var =
 i = 0
 while i<len(name):
     print(name[i]:name.count(name[i])
     i = i+1
-
-
+"""
+n = int(input("enter a number"))
+i = 1
+fact = 1
+while i <n+1:
+    fact = fact *i
+    i = i+1
+print(fact)
 
 
 

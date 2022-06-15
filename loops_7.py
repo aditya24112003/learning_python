@@ -55,11 +55,16 @@ for i in range(1,21):
     total = total+i
 print(total)
 """
-total = 0
+"""total = 0
 n = input("enter a number:")
 for i in range(0,len(n)):
     total = total + int(n[i])
-print(total)
+print(total)"""
+n = int(input("enter a number"))
+fact = 1
+for i in range (1,n+1):
+    fact = fact*i
+print(fact)
 
 
 
