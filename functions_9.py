@@ -66,9 +66,86 @@ print(fibonacci_sequence(5))"""
     print(f"your last name is {last_name}")
     print(f"your age is {age}")
 (user_info("adi","srivastva"))"""
-def func():
+"""def func():
     x = 7
     return x
-print(func())
+print(func())"""
+numbers= [1,2,3,4,5,6,7]
+"""def square_list(l):
+    square = []
+    for i in l:
+        square.append(i**2)
+    return square
+print(square_list(numbers))"""
+"""def rev_list(l):
+    list=[]
+    for i in l:
+        list = l[::-1]
+    return list
+print(rev_list(numbers))"""
+"""def rev_list(l):
+    l.reverse()
+    return l
+num = [1,2,3,4,5]
+print(rev_list(num))"""
+"""def rev_list(l):
+    return l[::-1]
+num = [1,2,3,4,5,6]
+print(rev_list(num))"""
+#to reverse the elements of list
+"""num = ["apple", "mango", "orange", "banana"]
+def rev_list (l):
+    r_list = []
+    for i in range(len(l)):
+        pop_item = l.pop()
+        r_list.append(pop_item)
+    return r_list
+print((rev_list(num)))"""
+# to revesre the characters of elements in a list
+"""def rev_elements(l):
+    rev_list = []
+    for i in l:
+        rev_list.append(i[::-1])
+    return rev_list
+num = ["abc","apple", "cba","dbs"]
+print(rev_elements(num))
+"""
+"""def fil_odd_even(l):
+    list = []
+    odd_nums = []
+    even_nums = []
+    for i in l:
+        if i%2==0:
+            even_nums.append(i)
+        else:
+            odd_nums.append(i)
+    return odd_nums , even_nums
+num = [1,2,3,4,5,6,7,8,9,10]
+print(fil_odd_even(num))"""
+# to find common elements between two lists
+"""def commmon_elements(l1,l2):
+    list_c = []
+    for i in l1:
+        if i in l2:
+            list_c.append(i)
+    return list_c
+print(commmon_elements([1,2,3,4,5,6], [1,2,3,4,5]))"""
+"""def great_diff(l1):
+    return max(l1)-min(l1)
+print(great_diff( [1,2,3,4,60]))"""
+"""def list_counter(l1):
+    count = 0
+    for i in l1:
+        if type(i)== list:
+            count=count+1
+
+    return count
+print(list_counter( [1,2,[3,4],5,[6,7,8]]))"""
+
+
+
+
+
+
 
 
