@@ -21,7 +21,7 @@ print(user_info)"""
     return count
 print(word_counter('hello world'))
 """
-def word_count(str):
+"""def word_count(str):
     counts = dict()
     words = str.split()
 
@@ -34,7 +34,7 @@ def word_count(str):
     return counts
 
 print( word_count('the quick brown fox jumps over the lazy dog.'))
-
+"""
 
 
 
@@ -80,12 +80,27 @@ user_info["fav_songs"]= fav_songs
 user_info["fav_movies"]= fav_movies
 for key,value in user_info.items():
     print(key,value)"""
-def sq_list(l):
+"""def sq_list(l):
     list_1 = []
     for i in l:
         list_1.append(i**2)
     return list_1
-print(sq_list([1,2,3,4,5,6]))
+print(sq_list([1,2,3,4,5]))"""
+"""def sq_list(n):
+    dict_1 = {}
+    for i in range(1,n+1):
+        dict_1[i] = i**2
+    return dict_1
+print(sq_list(5)) """
+def word_counter(l):
+    words = {}
+    for i in l :
+        if i in words:
+            words[i]=words[i]+1
+        else :
+            words[i]= 1
+    return words
+print(word_counter(['apple', 'apple', 'banana','banana']))
 
 
 

@@ -141,7 +141,20 @@ print(great_diff( [1,2,3,4,60]))"""
 
     return count
 print(list_counter( [1,2,[3,4],5,[6,7,8]]))"""
-
+"""user_info = {'name': 'unknown', 'age': 'unknown'}
+print(user_info)"""
+"""d = dict.fromkeys(, 'unknown')
+print(d)['name','age','batch']"""
+"""d = {'name': 'unknown', 'age': 'unknown'}
+d1 = d
+print(d1.pop('name'))
+print(d)"""
+def cube(n):
+    cubes= {}
+    for i in range(1,n+1):
+        cubes[i] = i**3
+    return cubes
+print(cube(3))
 
 
 

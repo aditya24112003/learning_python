@@ -60,11 +60,16 @@ n = input("enter a number:")
 for i in range(0,len(n)):
     total = total + int(n[i])
 print(total)"""
-n = int(input("enter a number"))
+"""n = int(input("enter a number"))
 fact = 1
 for i in range (1,n+1):
     fact = fact*i
-print(fact)
+print(fact)"""
+total = 0
+n = int(input("enter a number:"))
+for i in range(0,len(n)):
+    total = total + int(n[i])
+print(total)
 
 
 

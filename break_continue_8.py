@@ -24,7 +24,7 @@ for word in l:
     else:
         word_count[word] = 1
 
-print(word_count)"""
+print(word_count)
 def is_palindrome(a):
     reversed_word = a[::-1]
     if a == reversed_word
