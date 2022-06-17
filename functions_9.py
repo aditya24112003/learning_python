@@ -3,7 +3,7 @@ letter_count = {}
 
 for letter in l:
     if letter in letter_count:
-        current_count = letter_count[word]
+        current_count = letter_count[letter]
         new_count = current_count + 1
         letter_count[letter] = new_count
     else:
@@ -54,12 +54,12 @@ print("the greatest of three numbers is ",great_three(a,b,c))"""
     elif n == 2:
         print (b)
     else:
-        print(a,b , end = "")
+        print(a ,b , end = " ")
         for i in range(n-2):
             c = a+b
             a=b
             b=c
-            print (b, end = "")
+            print (b, end = " ")
 print(fibonacci_sequence(5))"""
 """def user_info(first_name,last_name,age=20):
     print(f"your first name is {first_name}")
@@ -143,21 +143,29 @@ print(great_diff( [1,2,3,4,60]))"""
 print(list_counter( [1,2,[3,4],5,[6,7,8]]))"""
 """user_info = {'name': 'unknown', 'age': 'unknown'}
 print(user_info)"""
-"""d = dict.fromkeys(, 'unknown')
-print(d)['name','age','batch']"""
+
 """d = {'name': 'unknown', 'age': 'unknown'}
 d1 = d
 print(d1.pop('name'))
 print(d)"""
-def cube(n):
+"""def cube(n):
     cubes= {}
     for i in range(1,n+1):
         cubes[i] = i**3
     return cubes
 print(cube(3))
-
-
-
+"""
+def cubes(n):
+    return {i : i**3 for i in range(1,n)}
+print(cubes(5))
+"""def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*factorial((n-1))
+n = int(input("enter a number :"))
+print(factorial(n))
+"""
 
 
 

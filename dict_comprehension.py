@@ -21,7 +21,7 @@ print(word_counter(l))"""
 n = int(input("enter a number")
 l=list (range(1,n+1)))
 print(odd_even_fil(l))'''
-"""def word_counter(l):
+def word_counter(l):
     word = {}
     for i in l:
         if i in word:
@@ -29,8 +29,12 @@ print(odd_even_fil(l))'''
         else:
             word[i] = 1
     return word
-print(word_counter(['adi','adi','ashu','ashu','zamal','adi'])) """
+print(word_counter(['adi','adi','ashu','ashu','zamal','adi']))
 """def word_counter(l):
     return {i:l.count(i) for i in l}
 print(word_counter(['adi','adi','ashu','ashu','zamal','adi']))"""
+
+square_dict = {num: num*num for num in range(1, 11)}
+print(square_dict)
+
 
