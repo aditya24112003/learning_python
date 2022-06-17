@@ -1,4 +1,4 @@
-def sum(*num):
+"""def sum(*num):
     sum = 0
     for i in num:
         sum = sum + i
@@ -26,6 +26,9 @@ def power(num1,*args):
     else:
         return "you didn't pass args"
 num = [1,2,3]
-print(power(3,*num))
+print(power(3,*num))"""
+a = (input("enter a string:"))
+x = sorted(a)
+print(str(x))
 
 
